@@ -1,0 +1,25 @@
+.parties-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.75rem;
+}
+
+.legend .circle-color {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1100px) {
+  .parties-chart {
+    flex-direction: column;
+  }
+}

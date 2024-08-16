@@ -1,0 +1,30 @@
+.chip {
+  border-radius: 15px;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 600;
+  width: fit-content;
+  font-size: 0.6rem;
+  margin: auto;
+  max-width: 100px;
+}
+
+.chip[color='purple'] {
+  color: #3c32db;
+  background-color: #ecf0fa;
+}
+
+.chip[color='yellow'] {
+  color: #fab351;
+  background-color: #fdfbe9;
+}
+
+.chip[color='green'] {
+  color: #4ecf7e;
+  background-color: #f2fef5;
+}
+
+.chip[color='red'] {
+  color: #f24969;
+  background-color: #feeff0;
+}

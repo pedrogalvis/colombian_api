@@ -1,0 +1,31 @@
+.avatar-container {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.avatar {
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
+
+.avatar-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.avatar-info-name,
+.avatar-info-desc {
+  text-align: left;
+}
+
+.avatar-info-name {
+  font-weight: 600;
+  color: #3e4d60;
+}
+
+.avatar-info-desc {
+  font-size: 0.75rem;
+}

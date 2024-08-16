@@ -1,0 +1,7 @@
+.collapse-text {
+  font-size: 0.75rem;
+  text-align: left;
+  max-width: 350px;
+  cursor: pointer;
+  text-transform: none;
+}
