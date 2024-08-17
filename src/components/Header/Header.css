@@ -10,8 +10,8 @@ header {
   padding: 1rem 70px;
   display: flex;
   justify-content: space-between;
-  background-image: linear-gradient(to right, #012a4a, rgb(44, 125, 160, 0.8)),
-    url('https://cdn0.matrimonio.com.co/article/4285/original/1280/jpg/35824-shutterstock-345433454.jpeg');
+  background-image: linear-gradient(to right, #a3b9c941, rgba(96, 102, 53, 0.8)),
+    url('https://cdn.pixabay.com/photo/2023/06/16/03/36/coffee-8066888_1280.jpg');
   background-size: cover;
   background-position: center;
   position: fixed;
@@ -50,5 +50,27 @@ header {
 
   .logo-desc {
     font-size: 1rem;
+  }
+}
+.bandera {
+  width: 8%;
+  max-width: 50%;
+  height: 75%;
+  background: linear-gradient(to bottom, 
+              #F5CB15 50%, 
+              #00368F 50% 75%, 
+              #C81125 75%);
+  box-shadow: 0 10px 40px -5px rgba(0,0,0,.4),
+              0 20px 10px -10px rgba(0,0,0,.2);
+  cursor: pointer;
+  transition: all .2s ease;
+  animation: mover .5s infinite alternate ease-in-out;
+}
+
+
+
+@keyframes mover {
+  to {
+    transform: scale(1.4)
   }
 }
