@@ -5,14 +5,11 @@ export function Header() {
     <div className='header'>
       <header>
         <div className='logo-container'>
-          <div className='logo'>
-            <img
-              className='colombia-flag'
-              src='https://www.state.gov/wp-content/uploads/2018/07/colombia-flag.gif'
-              height='100%'
-            />
+          <div className='bandera'>
+            
           </div>
-          <span className='logo-desc'>Colombia API</span>
+          <span className='logo-desc'>Consulta de información pública        de la República de Colombia </span>
+          
         </div>
         <div></div>
       </header>
