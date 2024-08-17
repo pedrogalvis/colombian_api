@@ -15,19 +15,19 @@ export function ColombiaDash() {
       <div className='page'>
         <div className='tabs'>
           <Tab
-            title='Presidentes'
+            title='Presidentes de Colombia'
             icon={<ion-icon name='person' />}
             checked={tab === 'president'}
             change={() => setTab('president')}
           />
           <Tab
-            title='Turismo'
+            title='Atracciones Turisticas de Colombia'
             icon={<ion-icon name='sunny' />}
             checked={tab === 'touristic'}
             change={() => setTab('touristic')}
           />
           <Tab
-            title='Aeropuertos'
+            title='Aeropuertos de Colombia'
             icon={<ion-icon name='airplane' />}
             checked={tab === 'airports'}
             change={() => setTab('airports')}
@@ -42,3 +42,4 @@ export function ColombiaDash() {
     </main>
   );
 }
+
