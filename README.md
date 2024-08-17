@@ -1,4 +1,6 @@
 # Colombia API
+![image](https://github.com/user-attachments/assets/be4b7473-aa19-4fbe-a43e-64fba91237d4)
+
 Colombia API es una aplicación web desarrollada en React que permite a los usuarios explorar y visualizar información sobre presidentes, aeropuertos y atracciones turísticas en Colombia. La aplicación utiliza la API de Colombia para obtener datos actualizados y organiza la información en vistas tabuladas, facilitando la navegación y el acceso a los datos.
 
 Características:
