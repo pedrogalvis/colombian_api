@@ -33,10 +33,10 @@ Para realizar montaje de la aplicación en la web, se puede utilizar tecnología
 
 
 ## Referencias
+
 ⁍ Visita la URL API COLOMBIA https://api-colombia.com es la Fuente de la Información.
 
 ⁍ https://api-colombia.com/swagger/index.html
 
 ⁍ https://apexcharts.com/
 
-⁍ https://medium.com/@awdhesh1700/how-to-resolve-the-404-not-found-error-in-vercel-deployments-a0fe90c1447a
